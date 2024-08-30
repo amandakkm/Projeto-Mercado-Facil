@@ -56,7 +56,7 @@ const Login = () => {
                         <input type="text" name="email" value={loginData.email} onChange={handleLogin}/>
                     </div>
                     <div>
-                        <input type="password" name="senha" value={loginData.password} onChange={handleLogin}/>
+                        <input type="password" name="password" value={loginData.password} onChange={handleLogin}/>
                     </div>
                     <button className="buttonMargin" onClick={handleSubmit}>Entrar</button>
                 </form>
